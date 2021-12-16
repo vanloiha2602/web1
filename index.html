@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>CỬA HÀNG ĐIỆN MÁY</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Electro Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
+	/>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Bootstrap css -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Main css -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- pop-up-box -->
+	<link href="css/menu.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- menu style -->
+	<!-- //Custom-Files -->
+
+	<!-- web fonts -->
+	<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+	    rel="stylesheet">
+	<!-- //web fonts -->
+
+</head>
+
+<body>
+     <!-- ===== -->
+  
+
+<!-- top-header -->
+	<div class="agile-main-top">
+		<div class="container-fluid">
+			<div class="row main-top-w3l py-2">
+				<div class="col-lg-4 header-most-top">
+					
+				</div>
+				<div class="col-lg-8 header-right mt-lg-0 mt-2">
+					<!-- header lists -->
+					<ul>
+						
+						<li class="text-center border-right text-white">
+							<i class="fas fa-phone mr-2"></i> 0909999999
+						</li>
+						<!--Đăng nhập  -->
+						<li class="text-center border-right text-white">
+							<a  data-toggle="modal" data-target="#dangnhap" class="text-white">
+								<i class="fas fa-sign-in-alt mr-2"></i> Đăng nhập </a>
+						</li>
+							<!--Đăng ký-->
+						<li class="text-center border-right text-white">
+							<a  data-toggle="modal" data-target="#dangky" class="text-white">
+								<i class="fas fa-sign-out-alt mr-2"></i>Đăng ký </a>
+						</li>
+						<li class="text-center border-right text-white">
+							<a  class="text-white">
+								<i class="fas fa-truck mr-2"></i> Chào Quý Khách</a><br>
+								
+						</li>
+
+						<li class="text-center text-white">
+							<a href="index.html" data-toggle="modal" data-target="#dangxuat" class="text-white">Đăng xuất</a>
+						</li>
+						
+						
+					</ul>
+					<!-- //header lists -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modals -->
+	<!-- Đăng nhập -->
+	<div class="modal fade" id="dangnhap" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-center">Đăng nhập</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<!--bảng đăng nhập-->
+				<div class="modal-body">
+					<form action="#" method="post">
+						<div class="form-group">
+							<label class="col-form-label">Đăng nhập</label>
+							<input type="text" class="form-control" placeholder=" " name="email_login" required="">
+						</div>
+						<div class="form-group">
+							<label class="col-form-label">Mật khẩu</label>
+							<input type="password" class="form-control" placeholder=" " name="password_login" required="">
+						</div>
+
+						<div class="right-w3l">
+							<input type="submit" class="form-control" name="dangnhap_home" value="Đăng nhập">
+						</div>
+						
+						<p class="text-center dont-do mt-3">Chưa có tài khoản?
+							<a  data-toggle="modal" data-target="#dangky">
+								Đăng ký</a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- bảng đăng ký -->
+	<div class="modal fade" id="dangky" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Đăng ký</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="" method="post">
+						<div class="form-group">
+							<label class="col-form-label">Tên khách hàng</label>
+							<input type="text" class="form-control" placeholder=" " name="name" required="">
+						</div>
+						<div class="form-group">
+							<label class="col-form-label">Email</label>
+							<input type="email" class="form-control" placeholder=" " name="email" required="">
+						</div>
+						<div class="form-group">
+							<label class="col-form-label">Số điện thoại</label>
+							<input type="text" class="form-control" placeholder=" " name="phone"  required="">
+						</div>
+						<div class="form-group">
+							<label class="col-form-label">Đại chỉ</label>
+							<input type="text" class="form-control" placeholder=" " name="address"  required="">
+						</div>
+						<div class="form-group">
+							<label class="col-form-label">Mật Khẩu</label>
+							<input type="password" class="form-control" placeholder=" " name="password"  required="">
+							<input type="hidden" class="form-control" placeholder="" name="giaohang"  value="0">
+						</div>
+						<div class="form-group">
+							<label class="col-form-label">Ghi chú</label>
+							<textarea class="form-control" name="note"></textarea>
+						</div>
+						
+						<div class="right-w3l">
+							
+							<input type="submit" class="form-control" name="dangky" value="Đăng ký">
+						</div>
+					
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- //top-header -->
+	
+	
+	<!-- header-bottom-->
+	<div class="header-bot">
+		<div class="container">
+			<div class="row header-bot_inner_wthreeinfo_header_mid">
+				<!-- logo -->
+				<div class="col-md-3 logo_agile">
+					<h1 class="text-center">
+						<a href="index.html" class="font-weight-bold font-impact">
+							<img src="images/logo2.png" alt=" " class="img-fluid">. HTCL
+						</a>
+					</h1>
+				</div>
+				<!-- //logo -->
+				<!-- header-bot -->
+				<div class="col-md-9 header mt-4 mb-md-0 mb-4">
+					<div class="row">
+						<!-- search -->
+						<div class="col-10 agileits_search">
+							<form class="form-inline" action="index.html" method="POST">
+								<input class="form-control mr-sm-2" name="search_product" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search" required>
+								<button class="btn my-2 my-sm-0" name="search_button" type="submit">Tìm kiếm</button>
+							</form>
+						</div>
+						<!-- //search -->
+						<!-- cart details -->
+						<div class="col-2 top_nav_right text-center mt-sm-0 mt-2">
+							<div class="wthreecartaits wthreecartaits2 cart cart box_1">
+								<form action="#" method="post" class="last">
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="display" value="1">
+									<button class="btn w3view-cart" type="submit" name="submit" value="">
+										<i class="fas fa-cart-arrow-down"></i>
+									</button>
+								</form>
+							</div>
+						</div>
+						<!-- //cart details -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- shop locator (popup) -->
+	<!-- //header-bottom -->
+	<!-- navigation -->
+     <!-- ===== -->
+     <!-- ===== -->
+     
+     <div class="navbar-inner">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="agileits-navi_search">
+					<form action="#" method="post">
+						<select id="agileinfo-nav_search" name="agileinfo_search" class="border" required="">
+							<option value="">Danh mục</option>
+							<option value="Televisions">Televisions</option>
+							<option value="Headphones">Headphones</option>
+							<option value="Computers">Computers</option>
+							<option value="Appliances">Appliances</option>
+							<option value="Mobiles">Mobiles</option>
+							<option value="Fruits &amp; Vegetables">Tv &amp; Video</option>
+							<option value="iPad & Tablets">iPad & Tablets</option>
+							<option value="Cameras & Camcorders">Cameras & Camcorders</option>
+							<option value="Home Audio & Theater">Home Audio & Theater</option>
+						</select>
+					</form>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto text-center mr-xl-5">
+						<li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="index.html">Trang chủ
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link dropdown-toggle"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Điện tử
+							</a>
+							<div class="dropdown-menu">
+								<div class="agile_inner_drop_nav_info p-4">
+									<h5 class="mb-3">Mobiles, Computers</h5>
+									<div class="row">
+										<div class="col-sm-6 multi-gd-img">
+											<ul class="multi-column-dropdown">
+												<li>
+													<a >All Mobile Phones</a>
+												</li>
+												<li>
+													<a >All Mobile Accessories</a>
+												</li>
+												<li>
+													<a >Cases & Covers</a>
+												</li>
+												<li>
+													<a >Screen Protectors</a>
+												</li>
+												<li>
+													<a >Power Banks</a>
+												</li>
+												<li>
+													<a >All Certified Refurbished</a>
+												</li>
+												<li>
+													<a >Tablets</a>
+												</li>
+												<li>
+													<a >Wearable Devices</a>
+												</li>
+												<li>
+													<a >Smart Home</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-sm-6 multi-gd-img">
+											<ul class="multi-column-dropdown">
+												<li>
+													<a >Laptops</a>
+												</li>
+												<li>
+													<a >Drives & Storage</a>
+												</li>
+												<li>
+													<a >Printers & Ink</a>
+												</li>
+												<li>
+													<a >Networking Devices</a>
+												</li>
+												<li>
+													<a >Computer Accessories</a>
+												</li>
+												<li>
+													<a >Game Zone</a>
+												</li>
+												<li>
+													<a >Software</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link dropdown-toggle"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Thiết bị gia dụng
+							</a>
+							<div class="dropdown-menu">
+								<div class="agile_inner_drop_nav_info p-4">
+									<h5 class="mb-3">TV, Appliances, Electronics</h5>
+									<div class="row">
+										<div class="col-sm-6 multi-gd-img">
+											<ul class="multi-column-dropdown">
+												<li>
+													<a >Televisions</a>
+												</li>
+												<li>
+													<a >Home Entertainment Systems</a>
+												</li>
+												<li>
+													<a >Headphones</a>
+												</li>
+												<li>
+													<a >Speakers</a>
+												</li>
+												<li>
+													<a >MP3, Media Players & Accessories</a>
+												</li>
+												<li>
+													<a >Audio & Video Accessories</a>
+												</li>
+												<li>
+													<a >Cameras</a>
+												</li>
+												<li>
+													<a >DSLR Cameras</a>
+												</li>
+												<li>
+													<a >Camera Accessories</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-sm-6 multi-gd-img">
+											<ul class="multi-column-dropdown">
+												<li>
+													<a >Musical Instruments</a>
+												</li>
+												<li>
+													<a >Gaming Consoles</a>
+												</li>
+												<li>
+													<a >All Electronics</a>
+												</li>
+												<li>
+													<a >Air Conditioners</a>
+												</li>
+												<li>
+													<a >Refrigerators</a>
+												</li>
+												<li>
+													<a >Washing Machines</a>
+												</li>
+												<li>
+													<a >Kitchen & Home Appliances</a>
+												</li>
+												<li>
+													<a >Heating & Cooling Appliances</a>
+												</li>
+												<li>
+													<a >All Appliances</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="about.html">Thông tin về chúng tôi</a>
+						</li>
+                              <li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="/checkout.html">Đơn hàng</a>
+						</li>
+                              <li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="/product.html">Sản phẩm 1</a>
+						</li>
+                              <li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
+							<a class="nav-link" href="/product2.html">Sản phẩm 2</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Liên hệ</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- //navigation -->
+     <!-- ===== -->
+
+
+<!-- banner -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<!-- Indicators-->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"class="active"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item item2 active">
+				<div class="container">
+					<div class="w3l-space-banner">
+						<div class="carousel-caption p-lg-5 p-sm-4 p-3">
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<a class="carousel-control-prev"  role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Trước</span>
+		</a>
+		<a class="carousel-control-next"  role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Sau</span>
+		</a>
+	</div>
+	<!-- //banner -->
+     <!-- ====== -->
+     <!-- ====== -->
+     
+	<!-- footer -->
+	<footer>
+		<div class="footer-top-first">
+			<div class="container py-md-5 py-sm-4 py-3">
+				
+				<div class="row w3l-grids-footer border-top border-bottom py-sm-4 py-3">
+					<div class="col-md-4 offer-footer">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="fas fa-dolly"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Miễn phí vận chuyển</h3>
+								<p>Đơn hàng trên 1 triệu</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 offer-footer my-md-0 my-4">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="fas fa-shipping-fast"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Vận chuyển nhanh</h3>
+								<p>Toàn quốc</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 offer-footer">
+						<div class="row">
+							<div class="col-4 icon-fot">
+								<i class="far fa-thumbs-up"></i>
+							</div>
+							<div class="col-8 text-form-footer">
+								<h3>Tin cậy</h3>
+								<p>Sự đảm bảo</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //footer second section -->
+			</div>
+		</div>
+		
+	</footer>
+	<div class="copy-right py-3">
+		<div class="container">
+			<p class="text-center text-white">© Nhóm HTCL
+			</p>
+		</div>
+	</div>
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".dropdown").hover(
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+					$(this).toggleClass('open');
+				},
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+					$(this).toggleClass('open');
+				}
+			);
+		});
+	</script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});
+
+		});
+	</script>
+	<script>
+		paypals.minicarts.render();  
+		paypals.minicarts.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 3) {
+				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+				evt.preventDefault();
+			}
+		});
+	</script>
+	<script>
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+		}
+	</script>
+	<script src="js/imagezoom.js"></script>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+	<script src="js/jquery.flexslider.js"></script>
+	<script>
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				animation: "slide",
+				controlNav: "thumbnails"
+			});
+		});
+	</script>
+	<script src="js/scroll.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script src="js/move-top.js"></script>
+	<script src="js/easing.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function () {
+		
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
